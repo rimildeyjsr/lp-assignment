@@ -6,9 +6,9 @@ html,body,.container-fluid {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.navigation {
+.navigation-primary {
     width: 100%;
-    background-color: grey;
+    background-color: #8b0000;
     height: 75px;
 }
 
@@ -19,20 +19,42 @@ html,body,.container-fluid {
     margin: 20px;
 }
 
-.navigation-ul {
+.navigation-primary-ul {
     list-style: none;
     margin-left: 60%;
 }
 
-.navigation-ul li {
+.navigation-primary-ul li {
     display: inline-block;
     padding: 10px;
     margin: 15px;
 }
 
-.navigation-ul li a {
+.navigation-primary-ul li a {
     color: white;
     font-size: 1.2em;
     text-decoration: none;
 }
 
+.navigation-secondary {
+    width: 100%;
+    background-color: #f3f3f1;
+    height: 55px;
+}
+
+.navigation-secondary-ul {
+    list-style: none;
+    margin-left: 18%;
+}
+
+.navigation-secondary-ul li {
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin: 10px;
+}
+
+.navigation-secondary-ul li a {
+    color: #b80000;
+    font-size: 1.2em;
+    text-decoration: none;
+}
